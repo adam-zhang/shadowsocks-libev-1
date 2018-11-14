@@ -372,7 +372,7 @@ server_handshake(EV_P_ ev_io *w, buffer_t *buf)
     abuf->len = 0;
 
     abuf->data[abuf->len++] = request->atyp;
-    int atyp = request->atyp;
+    int atyp = request->atyp
 
     // get remote addr and port
     if (atyp == SOCKS5_ATYP_IPV4) {
